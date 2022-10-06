@@ -75,26 +75,27 @@ html{
 }
 .inicio .contenido-banner img{
     margin-top: 40px;
-    border: 10px solid #1CB698;
-    display: block;
+    border: 10px solid #4cf5f5;
+    display:block;
     width: 80%;
     margin: auto;
     border-radius: 100%;
 }
-.inicio .contenido-banner h1{
-    margin-top: 40px;
-    font-size: 42px;
+/* aqui se cambia en tamaño del texto y el tipo*/
+.inicio .contenido-banner h1{ 
+    margin-top: 15px;
+    font-size: 35px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
     font-size: 15px;
     font-weight: normal;
 }
-.inicio .contenido-banner .redes a{
-    color: #fff;
+.inicio .contenido-banner .redes a{ /*aqui cambiamos los colores de los iconos*/
+    color: rgb(49, 17, 194);
     display: inline-block;
     text-decoration: none;
-    border: 1px solid #fff;
+    border: 1px solid rgb(20, 189, 42);
     border-radius: 100%;
     width: 42px;
     height: 42px;
@@ -103,8 +104,8 @@ html{
     font-size: 20px;
     transition: .3s;
 }
-.inicio .contenido-banner .redes a:hover{
-    background-color: #1CB698;
+.inicio .contenido-banner .redes a:hover{ /*Cambia el seleccionar el fondo del icono*/
+    background-color: #b51ae4;
 }
 .sobremi{
     background-color: #1e2326;
