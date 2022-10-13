@@ -77,14 +77,14 @@ html{
     margin-top: 40px;
     border: 10px solid #4cf5f5;
     display:block;
-    width: 80%;
+    width: 65%;
     margin: auto;
     border-radius: 100%;
 }
 /* aqui se cambia en tamaño del texto y el tipo*/
 .inicio .contenido-banner h1{ 
-    margin-top: 15px;
-    font-size: 35px;
+    margin-top: 14px;
+    font-size: 33px;
     font-family: 'Righteous';
 }
 .inicio .contenido-banner h2{
@@ -100,12 +100,12 @@ html{
     width: 42px;
     height: 42px;
     line-height: 42px;
-    margin: 40px 5px;
+    margin: 35px 5px;
     font-size: 20px;
     transition: .3s;
 }
 .inicio .contenido-banner .redes a:hover{ /*Cambia el seleccionar el fondo del icono*/
-    background-color: #b51ae4;
+    background-color: #14bd2a;
 }
 .sobremi{
     background-color: #1e2326;
@@ -166,8 +166,8 @@ html{
     flex-wrap: wrap;
 }
 .sobremi .fila .col .contenedor-intereses .interes{
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     background-color: #252A2E;
     border-radius: 10px;
     margin: 0 15px 15px 0;
@@ -177,7 +177,7 @@ html{
     justify-content: center;
     transition: .3s;
 }.sobremi .fila .col .contenedor-intereses .interes:hover{
-    background-color: #1CB698;
+    background-color: #14bd2a;
 }
 .sobremi .fila .col .contenedor-intereses .interes i{
     font-size: 30px;
